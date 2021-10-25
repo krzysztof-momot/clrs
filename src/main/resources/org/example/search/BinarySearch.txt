@@ -1,0 +1,11 @@
+Wyszukiwanie binarne szuka zadanej liczby w tablicy. Musi być ona na wstępie uporządkowana.
+
+Działanie algorytmu wyszukiwania binarnego jest następujące:
+
+1. Sprawdzamy środkową wartość z danej tablicy.
+2. Jeśli jest ona większa od poszukiwanej liczby, badamy podtablicę 0 - środek (na "lewo").
+3. Jeśli jest ona mniejsza od poszukiwanej liczby, badamy podtablicę środek-koniec (na "prawo").
+4. Jeśli jest ona równa poszukiwanej liczbie, zwracamy indeks w tablicy i świętujemy sukces.
+5. Jeśli tablica została już przeskanowana, zwracamy -1 (nie znaleziono szukanej liczby).
+
+Czas działania tego algorytmu w pesymistycznym scenariuszu to O(lgn).
